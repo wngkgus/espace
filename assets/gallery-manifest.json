@@ -1,0 +1,426 @@
+[
+    {
+        "title":  "카이스트 대강당",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-01.jpg",
+                           "title":  "카이스트대강당-1",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-02.jpg",
+                           "title":  "카이스트대강당-2",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "대전전통나래관",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-03.jpg",
+                           "title":  "대전전통나래관 세미나실-1",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-04.jpg",
+                           "title":  "대전전통나래관 세미나실-2",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "학생종합복지센터-1",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-05.jpg",
+                           "title":  "학생종합복지센터-1",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "대덕비즈센터-1",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-06.jpg",
+                           "title":  "대덕비즈센터-1",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "뿌리병원",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-07.jpg",
+                           "title":  "뿌리병원-1",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-08.jpg",
+                           "title":  "뿌리병원-2",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "김제 골프존",
+        "category":  "COMMERCIAL",
+        "photos":  [
+                       {
+                           "file":  "portfolio-09.jpg",
+                           "title":  "김제 골프존-1",
+                           "category":  "COMMERCIAL"
+                       },
+                       {
+                           "file":  "portfolio-10.jpg",
+                           "title":  "김제 골프존-2",
+                           "category":  "COMMERCIAL"
+                       }
+                   ]
+    },
+    {
+        "title":  "길요양원",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-11.jpg",
+                           "title":  "길요양원",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "카페미뇽 죽동점",
+        "category":  "COMMERCIAL",
+        "photos":  [
+                       {
+                           "file":  "portfolio-12.jpg",
+                           "title":  "카페미뇽 죽동점-1",
+                           "category":  "COMMERCIAL"
+                       },
+                       {
+                           "file":  "portfolio-13.jpg",
+                           "title":  "카페미뇽(죽동점)",
+                           "category":  "COMMERCIAL"
+                       }
+                   ]
+    },
+    {
+        "title":  "미원노유자시설",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-14.jpg",
+                           "title":  "미원노유자시설",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-15.jpg",
+                           "title":  "미원노유자시설",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "충남대학교 이학2호관",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-16.jpg",
+                           "title":  "충남대이학2호관1",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-17.jpg",
+                           "title":  "충남대이학2호관 세미나실",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "이음학교",
+        "category":  "EDUCATION",
+        "photos":  [
+                       {
+                           "file":  "portfolio-18.jpg",
+                           "title":  "이음학교 도서관",
+                           "category":  "EDUCATION"
+                       },
+                       {
+                           "file":  "portfolio-19.jpg",
+                           "title":  "이음학교 시청각실",
+                           "category":  "EDUCATION"
+                       },
+                       {
+                           "file":  "portfolio-20.jpg",
+                           "title":  "이음학교 식당",
+                           "category":  "EDUCATION"
+                       },
+                       {
+                           "file":  "portfolio-21.jpg",
+                           "title":  "이음학교 유치원",
+                           "category":  "EDUCATION"
+                       },
+                       {
+                           "file":  "portfolio-22.jpg",
+                           "title":  "이음학교 강당",
+                           "category":  "EDUCATION"
+                       }
+                   ]
+    },
+    {
+        "title":  "계룡디지텍고등학교",
+        "category":  "EDUCATION",
+        "photos":  [
+                       {
+                           "file":  "portfolio-23.jpg",
+                           "title":  "계룡디지텍고등학교그린스마트",
+                           "category":  "EDUCATION"
+                       },
+                       {
+                           "file":  "portfolio-24.jpg",
+                           "title":  "계룡디지텍그린스마트 엘레베이터홀",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-25.jpg",
+                           "title":  "계룡디지텍그린스마트 휴게공간",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "한국전력 논산지사",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-26.jpg",
+                           "title":  "한국전력논산지사 로비",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-27.jpg",
+                           "title":  "한국전력논산지사 체력단련실",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-28.jpg",
+                           "title":  "한전논산지사 본부장실",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-29.jpg",
+                           "title":  "한전논산지사 사무공간",
+                           "category":  "OFFICE"
+                       },
+                       {
+                           "file":  "portfolio-30.jpg",
+                           "title":  "한전논산지사 탕비실",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-31.jpg",
+                           "title":  "한전논산지사 회의실",
+                           "category":  "OFFICE"
+                       }
+                   ]
+    },
+    {
+        "title":  "충북혁신도시 복합혁신센터",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-32.jpg",
+                           "title":  "충북혁신도시복합혁신센터 공연장-1",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-33.jpg",
+                           "title":  "충북혁신도시복합혁신센터 공연장-2",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "축산물품질평가원",
+        "category":  "OFFICE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-34.jpg",
+                           "title":  "축산물품질평가원 사무공간",
+                           "category":  "OFFICE"
+                       }
+                   ]
+    },
+    {
+        "title":  "한국특허전략개발원",
+        "category":  "EDUCATION",
+        "photos":  [
+                       {
+                           "file":  "portfolio-35.jpg",
+                           "title":  "한국특허전략개발원 교육장",
+                           "category":  "EDUCATION"
+                       },
+                       {
+                           "file":  "portfolio-36.jpg",
+                           "title":  "한국특허전략개발원 사무공간",
+                           "category":  "OFFICE"
+                       },
+                       {
+                           "file":  "portfolio-37.jpg",
+                           "title":  "한국특허전략개발원 시스템칸막이",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-38.jpg",
+                           "title":  "한국특허전략개발원 휴게공간",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-39.jpg",
+                           "title":  "한국특허전략개발원-4",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "세종청사 스마트워크센터",
+        "category":  "OFFICE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-40.jpg",
+                           "title":  "세종청사 스마트워크센터",
+                           "category":  "OFFICE"
+                       }
+                   ]
+    },
+    {
+        "title":  "한국수자원공사 대청생활관",
+        "category":  "RESIDENTIAL",
+        "photos":  [
+                       {
+                           "file":  "portfolio-41.jpg",
+                           "title":  "한국수자원공사 대청생활관1",
+                           "category":  "RESIDENTIAL"
+                       },
+                       {
+                           "file":  "portfolio-42.jpg",
+                           "title":  "한국수자원공사 대청생활관7",
+                           "category":  "RESIDENTIAL"
+                       }
+                   ]
+    },
+    {
+        "title":  "증평종합운동장",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-43.jpg",
+                           "title":  "증평종합운동장 내빈실",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-44.jpg",
+                           "title":  "증평종합운동장 로비",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "충남사회적경제혁신타운",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-45.jpg",
+                           "title":  "충남사회적경제혁신타운 로비",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-46.jpg",
+                           "title":  "충남사회적경제혁신타운 공용탕비실",
+                           "category":  "PUBLIC SPACE"
+                       },
+                       {
+                           "file":  "portfolio-47.jpg",
+                           "title":  "충남사회적경제혁신타운 카페테리아",
+                           "category":  "COMMERCIAL"
+                       },
+                       {
+                           "file":  "portfolio-48.jpg",
+                           "title":  "충남사회적경제혁신타운 회의실",
+                           "category":  "OFFICE"
+                       },
+                       {
+                           "file":  "portfolio-49.jpg",
+                           "title":  "충남사회적경제혁신타운중회의실",
+                           "category":  "OFFICE"
+                       }
+                   ]
+    },
+    {
+        "title":  "길치근린공원 복합체육센터",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-50.jpg",
+                           "title":  "길치근린공원복합체육센터 체육관",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "길치근린공원 복합체육센터 수영장",
+        "category":  "PUBLIC SPACE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-51.jpg",
+                           "title":  "길치근린공원 복합체육센터 수영장",
+                           "category":  "PUBLIC SPACE"
+                       }
+                   ]
+    },
+    {
+        "title":  "소정리 주택",
+        "category":  "RESIDENTIAL",
+        "photos":  [
+                       {
+                           "file":  "portfolio-52.jpg",
+                           "title":  "소정리 주택",
+                           "category":  "RESIDENTIAL"
+                       },
+                       {
+                           "file":  "portfolio-53.jpg",
+                           "title":  "소정리 주택",
+                           "category":  "RESIDENTIAL"
+                       }
+                   ]
+    },
+    {
+        "title":  "한국수자원공사 정보관",
+        "category":  "OFFICE",
+        "photos":  [
+                       {
+                           "file":  "portfolio-54.jpg",
+                           "title":  "한국수자원공사 정보관 회의실",
+                           "category":  "OFFICE"
+                       },
+                       {
+                           "file":  "portfolio-55.jpg",
+                           "title":  "한국수자원공사 정보관 회의실-1",
+                           "category":  "OFFICE"
+                       },
+                       {
+                           "file":  "portfolio-56.jpg",
+                           "title":  "한국수자원공사 정보관 회의실-2",
+                           "category":  "OFFICE"
+                       }
+                   ]
+    }
+]

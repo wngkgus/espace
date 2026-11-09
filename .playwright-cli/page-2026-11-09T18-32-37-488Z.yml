@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link [ref=e3] [cursor=pointer]:
+      - /url: ./index.html
+      - img "이공간" [ref=e4]:
+        - generic [ref=e8]: IGONGAN INTERIOR
+    - navigation [ref=e9]:
+      - link "Home" [ref=e10] [cursor=pointer]:
+        - /url: ./index.html
+      - link "About" [ref=e11] [cursor=pointer]:
+        - /url: ./about/index.html
+      - link "Portfolio" [ref=e12] [cursor=pointer]:
+        - /url: ./portfolio/index.html
+      - link "Reservation ↗" [ref=e13] [cursor=pointer]:
+        - /url: ./reservation/index.html
+        - text: Reservation
+        - generic [ref=e14]: ↗
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "한국수자원공사 대청생활관 인테리어" [ref=e17]
+      - img "카페 인테리어" [ref=e18]
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: SPACE, MADE FOR LIFE
+        - heading [level=1] [ref=e22]:
+          - text: 혁신적인 공간,
+          - emphasis [ref=e23]: 편안한 현실이 되다.
+        - paragraph [ref=e24]: 가치를 높이는 공간 솔루션,주식회사 이공간이 함께합니다.
+        - link "내 공간에 맞는 상담 시작하기 ↗" [ref=e25] [cursor=pointer]:
+          - /url: ./reservation/index.html
+          - text: 내 공간에 맞는 상담 시작하기
+          - generic [ref=e26]: ↗
+        - generic [ref=e27]: 01 — 02
+      - generic "메인 사진 선택" [ref=e28]:
+        - button "첫 번째 사진" [ref=e29] [cursor=pointer]
+        - button "두 번째 사진" [ref=e30] [cursor=pointer]
+      - generic [ref=e31]:
+        - generic [ref=e32]: DESIGN THAT FEELS LIKE YOU
+        - generic [ref=e33]: INTERIOR · REMODELING
+    - generic [ref=e34]:
+      - generic [ref=e35]: 01 / ABOUT IGONGAN
+      - generic [ref=e36]:
+        - heading [level=2] [ref=e37]:
+          - text: 좋은 공간은
+          - emphasis [ref=e38]: 생활을 이해하는 것
+          - text: 에서시작됩니다.
+        - generic [ref=e39]:
+          - paragraph [ref=e40]: 집과 일터, 매일을 보내는 공간에 필요한 변화는 무엇일까요. 이공간은 쓰임과 취향을 먼저 듣고, 오래 편안한 공간을 함께 그립니다.
+          - link "이공간 이야기 ↗" [ref=e41] [cursor=pointer]:
+            - /url: ./about/index.html
+            - text: 이공간 이야기
+            - generic [ref=e42]: ↗
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: 02 / SELECTED WORKS
+          - heading "공간마다 다른 이야기" [level=2] [ref=e48]
+        - link "전체 포트폴리오 ↗" [ref=e49] [cursor=pointer]:
+          - /url: ./portfolio/index.html
+          - text: 전체 포트폴리오
+          - generic [ref=e50]: ↗
+      - generic [ref=e51]:
+        - link "이음학교 도서관 인테리어 시공 사례 EDUCATION 이음학교 · 도서관" [ref=e52] [cursor=pointer]:
+          - /url: ./portfolio/index.html
+          - img "이음학교 도서관 인테리어 시공 사례" [ref=e53]
+          - generic [ref=e54]:
+            - text: EDUCATION
+            - generic [ref=e55]: 이음학교 · 도서관
+        - link "업무공간 인테리어 시공 사례 OFFICE 업무 공간" [ref=e56] [cursor=pointer]:
+          - /url: ./portfolio/index.html
+          - img "업무공간 인테리어 시공 사례" [ref=e57]
+          - generic [ref=e58]:
+            - text: OFFICE
+            - generic [ref=e59]: 업무 공간
+        - link "주택 인테리어 시공 사례 RESIDENTIAL 소정리 주택" [ref=e60] [cursor=pointer]:
+          - /url: ./portfolio/index.html
+          - img "주택 인테리어 시공 사례" [ref=e61]
+          - generic [ref=e62]:
+            - text: RESIDENTIAL
+            - generic [ref=e63]: 소정리 주택
+    - generic [ref=e64]:
+      - generic [ref=e65]: WHAT MATTERS TO US
+      - generic [ref=e66]:
+        - article [ref=e67]:
+          - heading "편리성" [level=3] [ref=e71]
+          - paragraph [ref=e72]: 사용자 중심의 효율적인 동선과 실용적인 맞춤형 공간으로 매일이 편리한 공간을 연출합니다.
+        - article [ref=e73]:
+          - heading "디테일" [level=3] [ref=e77]
+          - paragraph [ref=e78]: 눈에 보이지 않는 공정까지 살피고 섬세한 마감으로 완성도를 높입니다.
+        - article [ref=e79]:
+          - heading "지속가능성" [level=3] [ref=e83]
+          - paragraph [ref=e84]: 검증된 자재와 기초 시공으로 오래도록 가치를 유지하는 공간을 지향합니다.
+    - generic [ref=e85]:
+      - generic [ref=e86]: SPACE SOLUTIONS
+      - heading "공간별 맞춤 전문 시공 분야" [level=2] [ref=e87]
+      - generic [ref=e88]:
+        - article [ref=e89]:
+          - generic [ref=e90]: OFFICE
+          - heading "오피스 공간" [level=3] [ref=e91]
+          - list [ref=e92]:
+            - listitem [ref=e93]: 기업 아이덴티티 반영
+            - listitem [ref=e94]: 업무 효율을 높이는 동선
+            - listitem [ref=e95]: 스마트한 사무환경
+        - article [ref=e96]:
+          - generic [ref=e97]: COMMERCIAL
+          - heading "상업 공간" [level=3] [ref=e98]
+          - list [ref=e99]:
+            - listitem [ref=e100]: 매장을 위한 트렌디한 디자인
+            - listitem [ref=e101]: 고객 중심 동선과 조명
+            - listitem [ref=e102]: 브랜드 가치를 살리는 연출
+        - article [ref=e103]:
+          - generic [ref=e104]: RESIDENTIAL
+          - heading "주거 공간" [level=3] [ref=e105]
+          - list [ref=e106]:
+            - listitem [ref=e107]: 1:1 맞춤형 라이프스타일
+            - listitem [ref=e108]: 수납과 구조 개선
+            - listitem [ref=e109]: 친환경 자재를 고려한 시공
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]: 03 / WHAT WE DO
+        - heading [level=2] [ref=e113]:
+          - text: 필요한 공간을
+          - emphasis [ref=e114]: 제대로
+          - text: 만듭니다.
+        - paragraph [ref=e115]: 공간의 목적과 생활 방식에 맞춰처음부터 마무리까지 함께합니다.
+        - link "상담 문의 ↗" [ref=e116] [cursor=pointer]:
+          - /url: ./reservation/index.html
+          - text: 상담 문의
+          - generic [ref=e117]: ↗
+      - generic [ref=e118]:
+        - link "사무실 인테리어 ↗" [ref=e119] [cursor=pointer]:
+          - /url: ./daejeon-office-interior/index.html
+          - text: 사무실 인테리어
+          - generic [ref=e120]: ↗
+        - link "지역 맞춤 인테리어 ↗" [ref=e121] [cursor=pointer]:
+          - /url: ./daejeon-sejong-chungnam-interior/index.html
+          - text: 지역 맞춤 인테리어
+          - generic [ref=e122]: ↗
+        - link "주택 인테리어 ↗" [ref=e123] [cursor=pointer]:
+          - /url: ./daejeon-house-interior/index.html
+          - text: 주택 인테리어
+          - generic [ref=e124]: ↗
+        - link "아파트 인테리어 ↗" [ref=e125] [cursor=pointer]:
+          - /url: ./daejeon-apartment-interior/index.html
+          - text: 아파트 인테리어
+          - generic [ref=e126]: ↗
+        - link "리모델링 ↗" [ref=e127] [cursor=pointer]:
+          - /url: ./daejeon-remodeling/index.html
+          - text: 리모델링
+          - generic [ref=e128]: ↗
+        - link "지역 맞춤 리모델링 ↗" [ref=e129] [cursor=pointer]:
+          - /url: ./daejeon-sejong-chungnam-remodeling/index.html
+          - text: 지역 맞춤 리모델링
+          - generic [ref=e130]: ↗
+    - generic [ref=e133]:
+      - paragraph [ref=e134]: LET'S TALK ABOUT YOUR SPACE
+      - heading "다음 공간 이야기를 들려주세요." [level=2] [ref=e135]: 다음 공간 이야기를들려주세요.
+      - link "전화로 상담하기 ↗" [ref=e136] [cursor=pointer]:
+        - /url: tel:0425255894
+        - text: 전화로 상담하기
+        - generic [ref=e137]: ↗
+  - contentinfo [ref=e138]:
+    - img "이공간" [ref=e140]:
+      - generic [ref=e144]: IGONGAN INTERIOR
+    - generic [ref=e145]:
+      - generic [ref=e146]: 주소대전광역시 유성구 학하중앙로 205 2층
+      - generic [ref=e147]:
+        - text: Tel
+        - link "042-525-5894" [ref=e148] [cursor=pointer]:
+          - /url: tel:0425255894
+      - generic [ref=e149]: Fax042-525-5897
+      - generic [ref=e150]:
+        - text: E-mail
+        - link "espacec@naver.com" [ref=e151] [cursor=pointer]:
+          - /url: mailto:espacec@naver.com
+    - generic [ref=e152]:
+      - generic [ref=e153]: 인테리어 전문업체 이공간
+      - generic [ref=e154]: © IGONGAN. ALL RIGHTS RESERVED.

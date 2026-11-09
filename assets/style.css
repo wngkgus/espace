@@ -35,3 +35,4 @@
 
 
 /* transparent inline logo */.brand-logo{display:block;width:150px;height:auto;color:var(--ink)}.footer-top .brand-logo{color:#f5f4ef;width:150px}@media(max-width:760px){.brand .brand-logo{width:124px}.footer-top .brand-logo{width:128px}}
+/* footer company info */.footer-info{font-style:normal;display:flex;flex-wrap:wrap;gap:8px 28px;padding-bottom:24px;color:rgba(245,244,239,.78);font-size:13px;line-height:1.6;letter-spacing:.02em}.footer-info b{font-weight:500;color:#a39473;margin-right:8px}.footer-info a{color:inherit;text-decoration:none}.footer-info a:hover{color:#f5f4ef}@media(max-width:760px){.footer-info{flex-direction:column;gap:4px;font-size:12px}}

@@ -33,3 +33,5 @@
 .hero-copy>.hero-index{position:static;display:block;margin-top:14px;font-size:10px;line-height:1.4;letter-spacing:.12em;color:rgba(255,255,255,.78)}
 @media(max-width:760px){.hero-copy .hero-action{min-width:min(270px,100%);min-height:52px;padding:0 16px;font-size:11px}.hero-copy>.hero-index{margin-top:12px;font-size:9px}.hero-dots{bottom:38px}}
 
+
+/* transparent inline logo */.brand-logo{display:block;width:150px;height:auto;color:var(--ink)}.footer-top .brand-logo{color:#f5f4ef;width:150px}@media(max-width:760px){.brand .brand-logo{width:124px}.footer-top .brand-logo{width:128px}}

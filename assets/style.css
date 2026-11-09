@@ -163,4 +163,8 @@
 @media(hover:hover) and (prefers-reduced-motion:no-preference){
 .trust-grid article,.principle-grid article,.specialty-grid article{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}
 .trust-grid article:hover,.principle-grid article:hover,.specialty-grid article:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(38,51,45,.12)}
-}
+}/* hero button: outlined glass, gold on hover */
+.hero .hero-copy .hero-action{background:rgba(20,26,23,.18);color:#fff;border:1px solid rgba(255,255,255,.7);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);font-size:15px;font-weight:500;letter-spacing:.03em;min-height:56px;padding:0 22px}
+.hero .hero-copy .hero-action span{font-size:18px}
+.hero .hero-copy .hero-action:hover{background:#a39473;border-color:#a39473;color:#fff}
+@media(max-width:760px){.hero .hero-copy .hero-action{font-size:14px;min-height:52px;padding:0 18px}}

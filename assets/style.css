@@ -219,3 +219,34 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 .portfolio-item>span b{font-size:21px}
 .about-facts strong{font-size:24px}
 }
+
+/* Select different, subject-appropriate photos for each section. */
+.hero-slide-one{--hero-image:url('gallery/portfolio-42.jpg')}
+.hero-slide-two{--hero-image:url('gallery/portfolio-56.jpg')}
+.cta-bg{background-image:linear-gradient(rgba(27,38,33,.57),rgba(27,38,33,.58)),url('gallery/portfolio-45.jpg')}
+.about-editorial-photo{height:auto;aspect-ratio:4/3}
+.about-editorial-photo img{display:block;width:100%;height:auto;object-fit:contain}
+/* Avoid zooming the new photographs beyond the space needed to fill the banner. */
+.hero-photo{transform:none}
+.hero-photo.is-active{animation:none}
+
+/* Preserve the full banner photograph; put mobile copy below it for legibility. */
+.subhero{height:auto;aspect-ratio:var(--banner-ratio,16/9);max-width:1440px;margin-inline:auto}
+.subhero-img{background-size:100% 100%;background-position:center}
+@media(min-width:761px){.hero{height:auto;min-height:0;aspect-ratio:16/9;max-width:1600px;margin-inline:auto}}
+@media(max-width:760px){
+.subhero{aspect-ratio:auto;display:flex;flex-direction:column;background:var(--ink)}
+.subhero-img{position:relative;inset:auto;width:100%;aspect-ratio:var(--banner-ratio,16/9);flex-shrink:0}
+.subhero-tint{display:none}
+.subhero-copy{position:static;transform:none;max-width:none;padding:28px 24px 20px}
+.subhero-copy h1{font-size:clamp(30px,8vw,40px)}
+.subhero-copy .eyebrow{margin-bottom:18px;font-size:10px}
+.subhero-foot{position:static;padding:0 24px 22px;flex-wrap:wrap}
+.hero{height:auto;min-height:0;max-height:none;padding-top:56.25%;background:var(--ink)}
+.hero-photo{inset:0 0 auto;width:100%;height:auto;aspect-ratio:16/9;background-position:center;background-size:cover}
+.hero-shade{display:none}
+.hero-copy{position:relative;inset:auto;transform:none;max-width:none;padding:28px 24px}
+.hero h1{font-size:clamp(32px,8.5vw,44px)}
+.hero-dots{bottom:auto;top:calc(56.25vw - 24px)}
+.hero-caption{position:static;padding:0 24px 24px;gap:12px;flex-wrap:wrap}
+}

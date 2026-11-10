@@ -250,3 +250,33 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 .hero-dots{bottom:auto;top:calc(56.25vw - 24px)}
 .hero-caption{position:static;padding:0 24px 24px;gap:12px;flex-wrap:wrap}
 }
+
+/* Compact section rhythm: keep hierarchy while removing empty vertical space. */
+.section-pad{padding-block:clamp(44px,5vw,72px)}
+.page-intro{padding-top:56px;padding-bottom:28px}
+.section-head{margin-bottom:24px}
+.intro-grid{margin-top:28px;margin-bottom:32px}
+.detail,.related{padding-top:52px;padding-bottom:52px}
+.about-editorial{padding-top:44px;padding-bottom:48px}
+.about-trust{padding-top:48px;padding-bottom:48px}
+.about-trust-head{margin-bottom:28px}
+.manifesto{display:grid;grid-template-columns:minmax(160px,1fr) minmax(0,2fr);align-items:center;gap:24px;padding:36px var(--pad)}
+.manifesto>span{font-size:11px;line-height:1.6;letter-spacing:.12em}
+.manifesto p{margin:0;text-align:right;font-size:clamp(28px,3vw,40px);font-weight:600;line-height:1.4;letter-spacing:-.035em}
+.feature-values-grid{margin-top:28px}
+.services h2{margin-top:24px;margin-bottom:18px}
+@media(max-width:760px){
+.section-pad{padding-top:40px;padding-bottom:40px}
+.page-intro{padding-top:40px;padding-bottom:24px}
+.intro-grid{margin-top:24px;margin-bottom:28px;gap:20px}
+.detail,.related{padding-top:40px;padding-bottom:40px}
+.about-editorial{padding-top:36px;padding-bottom:40px;gap:24px}
+.about-trust{padding-top:40px;padding-bottom:40px}
+.about-editorial-copy h1{margin-top:18px;margin-bottom:20px}
+.about-facts{margin-top:24px}
+.manifesto{grid-template-columns:1fr;gap:12px;padding:28px 22px}
+.manifesto>span{text-align:left;font-size:10px}
+.manifesto p{text-align:left;font-size:28px;line-height:1.4;margin:0}
+.feature-values-grid{margin-top:24px;gap:28px}
+.services{gap:28px}
+}

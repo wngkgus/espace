@@ -297,3 +297,27 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 .contact-page .contact-bottom{position:static;margin-top:36px}
 @media(hover:hover){.chat-inquiry-link:hover{background:#f5db00}}
 @media(max-width:760px){.chat-inquiry{margin-top:20px}.chat-inquiry-link{padding:13px 16px;font-size:14px;gap:10px}.chat-inquiry .chat-inquiry-note{font-size:12px}.cta{min-height:0;padding:40px 22px}.contact-page{padding-bottom:100px}}
+
+/* Quiet contact links complement the separate floating brand-color shortcuts. */
+.contact-channel-links{display:flex;align-items:stretch;flex-wrap:wrap;gap:12px}
+.cta .contact-channel-links{justify-content:center}
+.chat-inquiry-link{min-height:52px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--ink);font-weight:500;transition:transform .22s ease,background-color .22s ease,border-color .22s ease,color .22s ease,box-shadow .22s ease}
+.chat-inquiry-link svg{width:21px;height:21px;transition:transform .22s ease}
+.chat-inquiry-link>span:last-child{transition:transform .22s ease}
+.cta .chat-inquiry-link{border-color:rgba(255,255,255,.65);background:rgba(24,33,28,.25);color:#fff}
+.chat-inquiry .chat-inquiry-note{font-size:12px;line-height:1.7;margin-top:12px}
+.cta .chat-inquiry-note{color:rgba(255,255,255,.72)}
+@media(hover:hover){
+.chat-inquiry-link:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.cta .chat-inquiry-link:hover{background:var(--paper);border-color:var(--paper);color:var(--ink)}
+}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+.chat-inquiry-link:hover{transform:translateY(-3px);box-shadow:0 7px 18px rgba(0,0,0,.13)}
+.chat-inquiry-link:hover>span:last-child{transform:translate(3px,-3px)}
+.chat-inquiry-link:hover svg{transform:scale(1.06)}
+}
+@media(max-width:760px){
+.contact-channel-links{gap:10px}
+.contact-channel-links .chat-inquiry-link{flex:1 1 240px}
+.cta .contact-channel-links{max-width:360px;margin-inline:auto}
+}

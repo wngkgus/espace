@@ -221,7 +221,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 }
 
 /* Select different, subject-appropriate photos for each section. */
-.hero-slide-one{--hero-image:url('gallery/portfolio-45.jpg')}
+.hero-slide-one{--hero-image:url('hero-lobby-clean.jpg')}
 .hero-slide-two{--hero-image:url('gallery/portfolio-56.jpg')}
 .cta-bg{background-image:linear-gradient(rgba(27,38,33,.57),rgba(27,38,33,.58)),url('gallery/portfolio-23.jpg')}
 .about-editorial-photo{height:auto;aspect-ratio:4/3}
@@ -331,4 +331,25 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 @media(max-width:760px){
 .cta .contact-channel-links{grid-template-columns:1fr;max-width:360px;gap:10px}
 .cta .contact-channel-links .chat-inquiry-link{min-height:52px;padding:13px 18px;font-size:14px}
+}
+
+/* Reservation: emphasize open chat and keep the telephone as a secondary option. */
+.contact-page .chat-inquiry{margin-top:28px;max-width:740px}
+.contact-page .contact-channel-links{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:12px}
+.contact-page .chat-inquiry-link{min-width:0;min-height:64px;padding:16px 20px;gap:12px}
+.contact-page .chat-inquiry-link>span:last-child{margin-left:auto}
+.contact-page .chat-inquiry-link:not(.blog-inquiry-link){background:var(--ink);border-color:var(--ink);color:#fff;font-size:17px;font-weight:700;box-shadow:0 5px 15px rgba(38,51,45,.12)}
+.contact-page .chat-inquiry-link:not(.blog-inquiry-link) svg{width:26px;height:26px}
+.contact-page .blog-inquiry-link{font-size:14px;font-weight:500}
+.contact-phone-secondary{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;max-width:740px;margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
+.contact-phone-label{font-size:13px;color:var(--muted)}
+.contact-page .contact-phone-secondary .contact-number{font-size:26px;line-height:1.4;font-weight:500;letter-spacing:-.025em;border:0;padding:0;gap:10px}
+.contact-phone-secondary .contact-note{margin:0;font-size:12px}
+@media(hover:hover){.contact-page .chat-inquiry-link:not(.blog-inquiry-link):hover{background:#405147;border-color:#405147;color:#fff}}
+@media(max-width:760px){
+.contact-page .contact-channel-links{grid-template-columns:1fr}
+.contact-page .chat-inquiry-link:not(.blog-inquiry-link){font-size:16px;min-height:62px}
+.contact-page .blog-inquiry-link{min-height:50px}
+.contact-page .contact-phone-secondary .contact-number{font-size:23px}
+.contact-phone-secondary .contact-note{flex-basis:100%}
 }

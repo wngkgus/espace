@@ -321,3 +321,14 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 .contact-channel-links .chat-inquiry-link{flex:1 1 240px}
 .cta .contact-channel-links{max-width:360px;margin-inline:auto}
 }
+
+/* Three equal contact buttons share one aligned row. */
+.cta-copy{width:100%}
+.cta .contact-channel-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%;max-width:900px;margin-inline:auto}
+.cta .contact-channel-links .chat-inquiry-link{width:100%;min-width:0;min-height:56px;justify-content:flex-start;padding:14px 18px;gap:10px;font-size:clamp(12px,1vw,15px)}
+.cta .contact-channel-links .chat-inquiry-link>span:last-child{margin-left:auto}
+.cta .contact-channel-links .chat-inquiry-link svg{flex:0 0 21px}
+@media(max-width:760px){
+.cta .contact-channel-links{grid-template-columns:1fr;max-width:360px;gap:10px}
+.cta .contact-channel-links .chat-inquiry-link{min-height:52px;padding:13px 18px;font-size:14px}
+}

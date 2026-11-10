@@ -221,9 +221,9 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 }
 
 /* Select different, subject-appropriate photos for each section. */
-.hero-slide-one{--hero-image:url('gallery/portfolio-52.jpg')}
+.hero-slide-one{--hero-image:url('gallery/portfolio-45.jpg')}
 .hero-slide-two{--hero-image:url('gallery/portfolio-56.jpg')}
-.cta-bg{background-image:linear-gradient(rgba(27,38,33,.57),rgba(27,38,33,.58)),url('gallery/portfolio-45.jpg')}
+.cta-bg{background-image:linear-gradient(rgba(27,38,33,.57),rgba(27,38,33,.58)),url('gallery/portfolio-23.jpg')}
 .about-editorial-photo{height:auto;aspect-ratio:4/3}
 .about-editorial-photo img{display:block;width:100%;height:auto;object-fit:contain}
 /* Avoid zooming the new photographs beyond the space needed to fill the banner. */

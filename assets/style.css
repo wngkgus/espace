@@ -187,3 +187,35 @@
 /* Apply the same sans-serif to form controls and inline SVG brand lettering. */
 input,textarea,select{font-family:var(--sans)}
 .brand-logo text{font-family:var(--sans)}
+
+/* Typography matched to the supplied LJ Interior screenshots. */
+body{font-weight:400}
+h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em}
+.hero h1,.subhero h1,.page-intro h1,.contact-page h1,.about-editorial-copy h1{font-weight:700;letter-spacing:-.04em;line-height:1.25}
+.hero h1{font-size:clamp(40px,5.2vw,72px)}
+.subhero h1{font-size:clamp(36px,4.5vw,60px)}
+.page-intro h1{font-size:48px}
+.about-editorial-copy h1,.contact-page h1{font-size:60px}
+.intro h2,.services h2,.detail h2,.section-head h2,.cta h2,.about-trust-head h2,.about-principles>h2,.specialty-section>h2{font-weight:700;letter-spacing:-.035em;line-height:1.4}
+.feature-values-grid h3,.point-grid h3,.trust-grid h3,.principle-grid h3,.specialty-grid h3{font-weight:700;letter-spacing:-.025em}
+.main-nav{font-weight:500;letter-spacing:0;text-transform:none}
+.hero-sub,.intro-text p,.detail-grid p,.about-editorial-copy>p:not(.eyebrow),.contact-lead{font-weight:400;letter-spacing:-.015em;line-height:1.8}
+.about-editorial-copy>p:not(.eyebrow){font-size:17px}
+.page-intro>p:last-child{font-size:16px;line-height:1.6;letter-spacing:-.01em}
+.portfolio-item>span b{font-family:var(--sans);font-size:24px;font-weight:700;letter-spacing:-.025em;line-height:1.4}
+.portfolio-item>span,.portfolio-count,.lightbox-count{font-weight:600}
+.lightbox-title,.work-label small,.related-grid b,.service-list a,.feature-image b{font-weight:600;letter-spacing:-.025em}
+.eyebrow,.section-kicker{font-weight:600}
+.about-facts strong{font-weight:700;font-size:30px}
+.about-facts span{font-weight:600}
+.brand-logo text{font-weight:700}
+@media(max-width:760px){
+.hero h1{font-size:clamp(36px,9vw,48px)}
+.subhero h1{font-size:clamp(32px,8vw,44px)}
+.page-intro h1{font-size:36px}
+.about-editorial-copy h1,.contact-page h1{font-size:42px}
+.about-editorial-copy>p:not(.eyebrow){font-size:15px}
+.page-intro>p:last-child{font-size:14px}
+.portfolio-item>span b{font-size:21px}
+.about-facts strong{font-size:24px}
+}

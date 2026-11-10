@@ -177,7 +177,7 @@
 @media(hover:hover) and (prefers-reduced-motion:no-preference){.social-shortcut:hover{transform:translateY(-3px);box-shadow:0 7px 22px rgba(0,0,0,.24)}}
 @media(max-width:760px){.social-shortcuts{right:max(16px,env(safe-area-inset-right));bottom:calc(90px + env(safe-area-inset-bottom));gap:10px}.social-shortcut{width:56px;height:56px}.social-shortcut svg{width:34px;height:34px}body.nav-open .social-shortcuts{visibility:hidden}}
 /* Show the complete project photo at its original ratio, without cropping. */
-.feature-image{height:auto;max-width:1440px;margin-inline:auto}
+.feature-image{height:auto;width:100%;max-width:none;margin-inline:0}
 .feature-image>img{display:block;width:100%;height:auto;object-fit:contain}
 @media(hover:hover){.feature-image:hover>img{transform:none}}
 /* Use wide project photographs without the previous extra 110% zoom. */
@@ -231,9 +231,9 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 .hero-photo.is-active{animation:none}
 
 /* Preserve the full banner photograph; put mobile copy below it for legibility. */
-.subhero{height:auto;aspect-ratio:var(--banner-ratio,16/9);max-width:1440px;margin-inline:auto}
+.subhero{height:auto;width:100%;aspect-ratio:var(--banner-ratio,16/9);max-width:none;margin-inline:0}
 .subhero-img{background-size:100% 100%;background-position:center}
-@media(min-width:761px){.hero{height:auto;min-height:0;aspect-ratio:16/9;max-width:1600px;margin-inline:auto}}
+@media(min-width:761px){.hero{width:100%;height:auto;min-height:0;aspect-ratio:16/9;max-width:none;margin-inline:0}}
 @media(max-width:760px){
 .subhero{aspect-ratio:auto;display:flex;flex-direction:column;background:var(--ink)}
 .subhero-img{position:relative;inset:auto;width:100%;aspect-ratio:var(--banner-ratio,16/9);flex-shrink:0}
@@ -280,3 +280,6 @@ h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;letter-spacing:-.035em
 .feature-values-grid{margin-top:24px;gap:28px}
 .services{gap:28px}
 }
+
+/* Fill the viewport width without cropping the banner photographs. */
+.hero-photo{background-size:100% 100%;background-position:center}

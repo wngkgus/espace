@@ -168,3 +168,18 @@
 .hero .hero-copy .hero-action span{font-size:18px}
 .hero .hero-copy .hero-action:hover{background:#a39473;border-color:#a39473;color:#fff}
 @media(max-width:760px){.hero .hero-copy .hero-action{font-size:14px;min-height:52px;padding:0 18px}}
+/* Social shortcuts stay clear of the mobile telephone bar and device safe areas. */
+.social-shortcuts{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:calc(24px + env(safe-area-inset-bottom));z-index:15;display:flex;flex-direction:column;gap:12px}
+.social-shortcut{display:grid;place-items:center;width:68px;height:68px;border-radius:50%;box-shadow:0 4px 18px rgba(0,0,0,.18);transition:transform .2s,box-shadow .2s}
+.social-shortcut svg{display:block;width:40px;height:40px}
+.social-kakao{background:#fee500;color:#381e1f}.social-blog{background:#03c75a;color:#fff}
+.social-shortcut:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.social-shortcut:hover{transform:translateY(-3px);box-shadow:0 7px 22px rgba(0,0,0,.24)}}
+@media(max-width:760px){.social-shortcuts{right:max(16px,env(safe-area-inset-right));bottom:calc(90px + env(safe-area-inset-bottom));gap:10px}.social-shortcut{width:56px;height:56px}.social-shortcut svg{width:34px;height:34px}body.nav-open .social-shortcuts{visibility:hidden}}
+/* Show the complete project photo at its original ratio, without cropping. */
+.feature-image{height:auto;max-width:1440px;margin-inline:auto}
+.feature-image>img{display:block;width:100%;height:auto;object-fit:contain}
+@media(hover:hover){.feature-image:hover>img{transform:none}}
+/* Use wide project photographs without the previous extra 110% zoom. */
+.subhero-img{background-size:cover;background-position:center}
+@media(min-width:761px){.subhero{height:clamp(420px,38vw,640px)}}

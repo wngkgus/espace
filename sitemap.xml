@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://2space.kr/</loc>
-  </url>
+<url><loc>https://2space.kr/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/about/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/portfolio/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/reservation/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/daejeon-office-interior/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/daejeon-house-interior/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/daejeon-apartment-interior/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/daejeon-remodeling/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/daejeon-sejong-chungnam-interior/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://2space.kr/daejeon-sejong-chungnam-remodeling/</loc><lastmod>2026-11-20</lastmod></url>
 </urlset>
